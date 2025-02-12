@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['158.160.88.6', 'localhost', '127.0.0.1', 'valerababajovkitty.zapto.org']
+ALLOWED_HOSTS = ['158.160.88.6', 'localhost', '127.0.0.1', 'valerababahov.onthewifi.com']
 
 
 # Application definition
