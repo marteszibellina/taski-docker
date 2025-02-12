@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['158.160.88.6', '127.0.0.1', 'localhost', 'valerababahov.onthewifi.com',]
+ALLOWED_HOSTS = ['158.160.88.6', 'localhost', '127.0.0.1', 'valerababajovkitty.zapto.org']
 
 
 # Application definition
@@ -118,6 +118,6 @@ STATIC_ROOT = BASE_DIR / 'collected_static'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000'
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000'
+# ]
